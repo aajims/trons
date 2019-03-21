@@ -1,0 +1,75 @@
+@font-face {
+    font-family: SFProText-Bold;
+    src: url('Font/SFProDisplay-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: SFProText-Medium;
+    src: url('Font/SFProDisplay-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: SFProText-Light;
+    src: url('Font/SFProText-Light.woff') format('woff');
+}
+@font-face {
+    font-family: SFProText-Regular;
+    src: url('Font/SFProText-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: SFProText-Semibold;
+    src: url('Font/SFProText-Semibold.woff') format('woff');
+}
+
+.privacy h2 {
+    font-family: SFProText-Bold;
+    font-size: 23px;
+    letter-spacing: 2px;
+    color: #8A2785;
+    font-weight: 700;
+    text-align: center;
+    margin: 35px 0;
+}
+.privacy h3 {
+    font-family: SFProText-Bold;
+    font-size: 16px;
+    color: #8A2785;
+    font-weight: 800;
+    line-height: 1.7;
+}
+.privacy p {
+    font-family: SFProText-Regular;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.nav>li {
+    position: relative;
+    display: inline-block;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .imgtron {
+        height: 1050px;
+        object-fit: contain;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+    .imgtron {
+        height: 850px;
+        object-fit: contain;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 413px) {
+    .imgtron {
+        height: 750px;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 320px) {
+    .imgtron {
+        height: 550px;
+        object-fit: contain;
+    }
+}
