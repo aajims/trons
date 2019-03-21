@@ -28,12 +28,12 @@ export default new Router({
       component: Term
     },
     {
-      path: '/En/privacy',
+      path: '/En-privacy',
       name: 'privacys',
       component: Privacys
     },
     {
-      path: '/En/Term',
+      path: '/En-term',
       name: 'terms',
       component: Terms
     },
